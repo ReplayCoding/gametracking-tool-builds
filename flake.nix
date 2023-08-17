@@ -11,5 +11,6 @@
       in
       {
         packages.vice = pkgs.callPackage ./pkgs/vice.nix {};
+        packages.convar-dumper = pkgs.pkgsi686Linux.callPackage ./pkgs/convar-dumper.nix {};
     });
 }
