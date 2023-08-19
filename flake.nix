@@ -17,7 +17,10 @@
 
   outputs = inputs@{ self, nixpkgs, flake-utils, ... }:
    flake-utils.lib.eachDefaultSystem (system:
-      let pkgs = nixpkgs.legacyPackages.${system};
+      let pkgs = import nixpkgs {
+        inherit system;
+        config.allowUnfree = true;
+      };
       in
       {
         packages.vice = pkgs.callPackage ./pkgs/vice.nix { src = inputs.vice-standalone; };
