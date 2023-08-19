@@ -1,5 +1,24 @@
 {
   "nodes": {
+    "convar-dumper": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692462587,
+        "narHash": "sha256-lIm0MTLSmsd3KpBgRogEuenza1N+PCGSWdXSHJkOwFY=",
+        "ref": "convars",
+        "rev": "adecd90f1244aa03a6a7a8f7387f56a06c366a40",
+        "revCount": 21,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/replaycoding/netvar-dumper"
+      },
+      "original": {
+        "ref": "convars",
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/replaycoding/netvar-dumper"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -36,8 +55,10 @@
     },
     "root": {
       "inputs": {
+        "convar-dumper": "convar-dumper",
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "vice-standalone": "vice-standalone"
       }
     },
     "systems": {
@@ -52,6 +73,22 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "vice-standalone": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692215917,
+        "narHash": "sha256-Yqu4Mgyj+3KF5fgbfrhNV9f3QQENzNqV3+8KU5NgXdE=",
+        "owner": "replaycoding",
+        "repo": "vice_standalone",
+        "rev": "4d9751934594f8901f6619575655ada052009e9c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "replaycoding",
+        "repo": "vice_standalone",
         "type": "github"
       }
     }
