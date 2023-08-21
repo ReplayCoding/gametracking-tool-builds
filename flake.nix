@@ -13,6 +13,11 @@
       url = "github:replaycoding/vice_standalone";
       flake = false;
     };
+
+    dataminer = {
+      url = "github:replaycoding/tf2-dataminer";
+      flake = false;
+    };
   };
 
   outputs = inputs@{ self, nixpkgs, flake-utils, ... }:
@@ -22,8 +27,12 @@
         config.allowUnfree = true;
       };
       in
-      {
+      rec {
         packages.vice = pkgs.callPackage ./pkgs/vice.nix { src = inputs.vice-standalone; };
         packages.convar-dumper = pkgs.pkgsi686Linux.callPackage ./pkgs/convar-dumper.nix { src = inputs.convar-dumper; };
+        packages.dataminer = pkgs.callPackage ./pkgs/dataminer.nix {
+          src = inputs.dataminer;
+          inherit (packages) vice convar-dumper;
+        };
     });
 }
