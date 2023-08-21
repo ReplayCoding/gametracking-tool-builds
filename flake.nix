@@ -5,7 +5,7 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     convar-dumper = {
-      url = "git+https://github.com/replaycoding/netvar-dumper?ref=convars&submodules=1";
+      url = "git+https://github.com/replaycoding/convar-dumper?submodules=1";
       flake = false;
     };
 
