@@ -18,6 +18,11 @@
       url = "github:replaycoding/tf2-dataminer";
       flake = false;
     };
+
+    pics-watcher = {
+      url = "github:replaycoding/PICSWatcher";
+      flake = false;
+    };
   };
 
   outputs = inputs@{ self, nixpkgs, flake-utils, ... }:
@@ -33,6 +38,11 @@
         packages.dataminer = pkgs.callPackage ./pkgs/dataminer.nix {
           src = inputs.dataminer;
           inherit (packages) vice convar-dumper;
+        };
+
+        packages.pics-watcher = pkgs.callPackage ./pkgs/pics-watcher.nix {
+          src = inputs.pics-watcher;
+          inherit (packages) dataminer;
         };
     });
 }
