@@ -3,6 +3,8 @@
 
 { fetchNuGet }: [
   (fetchNuGet { pname = "Dapper"; version = "2.0.143"; sha256 = "0qvqm9g054azg36m2lgqx63x3la19lyd8h1ax4hy6dn32wh1yarr"; })
+  (fetchNuGet { pname = "LibGit2Sharp"; version = "0.27.2"; sha256 = "0n2xabwss18icy5zmjnr976v3gmm0lgcym932s3hy35m5db3jr92"; })
+  (fetchNuGet { pname = "LibGit2Sharp.NativeBinaries"; version = "2.0.320"; sha256 = "03afv1aacwj7is713ygbpw61qs8bj3f02p89srdlfb94pcwav8is"; })
   (fetchNuGet { pname = "Microsoft.NETCore.Platforms"; version = "5.0.0"; sha256 = "0mwpwdflidzgzfx2dlpkvvnkgkr2ayaf0s80737h4wa35gaj11rc"; })
   (fetchNuGet { pname = "Microsoft.Win32.Registry"; version = "5.0.0"; sha256 = "102hvhq2gmlcbq8y2cb7hdr2dnmjzfp2k3asr1ycwrfacwyaak7n"; })
   (fetchNuGet { pname = "MySqlConnector"; version = "2.2.6"; sha256 = "0qg66cfvzmvj115wyvq3yjjykp9qk8p8ff5sn2sjjy53mmdkxb00"; })
