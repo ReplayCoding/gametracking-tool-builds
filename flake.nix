@@ -4,6 +4,11 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
     flake-utils.url = "github:numtide/flake-utils";
 
+    flake-compat = {
+      url = "github:edolstra/flake-compat";
+      flake = false;
+    };
+
     convar-dumper = {
       url = "git+https://github.com/replaycoding/convar-dumper?submodules=1";
       flake = false;
