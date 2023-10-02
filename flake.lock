@@ -87,11 +87,11 @@
     "pics-watcher": {
       "flake": false,
       "locked": {
-        "lastModified": 1696116145,
-        "narHash": "sha256-FkiI+b5u7MEJAoZzl1jc2ZHnoN6divGyFqXVAue/yl4=",
+        "lastModified": 1696279254,
+        "narHash": "sha256-7YZx76NGImMMew4sZ1I+UnNgYz1O0ikSaNwcVOC5hy4=",
         "owner": "replaycoding",
         "repo": "PICSWatcher",
-        "rev": "1ad0b3aa42575d8c2fe12c4c8bc089d76483fcc9",
+        "rev": "f1034bf3e6ef65324ad216a8f1f92528769107bb",
         "type": "github"
       },
       "original": {
