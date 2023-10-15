@@ -5,6 +5,7 @@
   makeWrapper,
   vice,
   convar-dumper,
+  bsp-info,
 
   src
 }:
@@ -25,6 +26,6 @@ poetry2nix.mkPoetryApplication {
 
   postFixup = ''
     wrapProgram $out/bin/dataminer \
-      --prefix PATH : ${lib.makeBinPath [ llvmPackages.bintools convar-dumper vice ]}
+      --prefix PATH : ${lib.makeBinPath [ llvmPackages.bintools convar-dumper vice bsp-info ]}
   '';
 }

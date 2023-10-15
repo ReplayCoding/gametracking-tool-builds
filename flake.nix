@@ -9,6 +9,11 @@
       flake = false;
     };
 
+    bsp-info = {
+      url = "github:replaycoding/bspinfo";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     convar-dumper = {
       url = "git+https://github.com/replaycoding/convar-dumper?submodules=1";
       flake = false;
@@ -38,11 +43,12 @@
       };
       in
       rec {
+        packages.bsp-info = inputs.bsp-info.defaultPackage.${system};
         packages.vice = pkgs.callPackage ./pkgs/vice.nix { src = inputs.vice-standalone; };
         packages.convar-dumper = pkgs.pkgsi686Linux.callPackage ./pkgs/convar-dumper.nix { src = inputs.convar-dumper; };
         packages.dataminer = pkgs.callPackage ./pkgs/dataminer.nix {
           src = inputs.dataminer;
-          inherit (packages) vice convar-dumper;
+          inherit (packages) vice convar-dumper bsp-info;
         };
 
         packages.pics-watcher = pkgs.callPackage ./pkgs/pics-watcher.nix {
