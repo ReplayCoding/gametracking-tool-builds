@@ -9,11 +9,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1697330910,
-        "narHash": "sha256-xL70SHmTY053n5xh+gmkyFmYizwq3at9cwgdPbZM/hU=",
+        "lastModified": 1697415268,
+        "narHash": "sha256-v6eX7m0rFJGnatUvYJfo5S+W6SCTVZ5jxuPz3fXiSmg=",
         "owner": "replaycoding",
         "repo": "bspinfo",
-        "rev": "4ab7aadfe5b937d0d63a1cb4b4255f39a0baf286",
+        "rev": "d9ba44f55c2a81b1388a35a2f8e342f492f8f1e8",
         "type": "github"
       },
       "original": {
@@ -43,11 +43,11 @@
     "dataminer": {
       "flake": false,
       "locked": {
-        "lastModified": 1697332746,
-        "narHash": "sha256-daEKnuJB7y250nTwr37SAVEhwu7gUrAJf6qj7jWxt28=",
+        "lastModified": 1697409497,
+        "narHash": "sha256-T9g7YwZ3VtH/4Nioxis2fkna0u7UX3osAcGyFb0nras=",
         "owner": "replaycoding",
         "repo": "tf2-dataminer",
-        "rev": "1c1f64335ded40cdca116af832a13444d4ed0d9d",
+        "rev": "0e44d66819d691c9a11ec3a44a276ed8877576eb",
         "type": "github"
       },
       "original": {
