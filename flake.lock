@@ -9,11 +9,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1697415268,
-        "narHash": "sha256-v6eX7m0rFJGnatUvYJfo5S+W6SCTVZ5jxuPz3fXiSmg=",
+        "lastModified": 1698015433,
+        "narHash": "sha256-L98UB7TjBjjkMdPOrssPny+UULWf7LPaVzOPQFqRZqc=",
         "owner": "replaycoding",
         "repo": "bspinfo",
-        "rev": "d9ba44f55c2a81b1388a35a2f8e342f492f8f1e8",
+        "rev": "8cc27ff385b1856c0b16c2c71d7fded380cac003",
         "type": "github"
       },
       "original": {
@@ -25,11 +25,11 @@
     "convar-dumper": {
       "flake": false,
       "locked": {
-        "lastModified": 1692580931,
-        "narHash": "sha256-+5+HrlhfZmnZrNk6Mmw0x7Iimkp3JKeOF0WPghXHFT8=",
+        "lastModified": 1697477309,
+        "narHash": "sha256-og/oljHQ/20Ny0GBpMrt1A+8vqZR925MW2xtFB/AXs4=",
         "ref": "refs/heads/convars",
-        "rev": "aeb25209d91d327e41106eab0393130719e05f35",
-        "revCount": 23,
+        "rev": "1b93e20d3f35447d3e2ba601f95d03aec53e12be",
+        "revCount": 24,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/replaycoding/convar-dumper"
@@ -43,11 +43,11 @@
     "dataminer": {
       "flake": false,
       "locked": {
-        "lastModified": 1697409497,
-        "narHash": "sha256-T9g7YwZ3VtH/4Nioxis2fkna0u7UX3osAcGyFb0nras=",
+        "lastModified": 1698104492,
+        "narHash": "sha256-gpX39Xp7iSKvtumbRKyOwwjbd3JMOK08jQebm/3n/Vk=",
         "owner": "replaycoding",
         "repo": "tf2-dataminer",
-        "rev": "0e44d66819d691c9a11ec3a44a276ed8877576eb",
+        "rev": "db8d06b81617a04614a5ad5004b1c4035fca4298",
         "type": "github"
       },
       "original": {
@@ -59,11 +59,11 @@
     "flake-compat": {
       "flake": false,
       "locked": {
-        "lastModified": 1673956053,
-        "narHash": "sha256-4gtG9iQuiKITOjNQQeQIpoIB6b16fm+504Ch3sNKLd8=",
+        "lastModified": 1696426674,
+        "narHash": "sha256-kvjfFW7WAETZlt09AgDn1MrtKzP7t90Vf7vypd3OL1U=",
         "owner": "edolstra",
         "repo": "flake-compat",
-        "rev": "35bb57c0c8d8b62bbfd284272c928ceb64ddbde9",
+        "rev": "0f9255e01c2351cc7d116c072cb317785dd33b33",
         "type": "github"
       },
       "original": {
@@ -141,11 +141,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1695559356,
-        "narHash": "sha256-kXZ1pUoImD9OEbPCwpTz4tHsNTr4CIyIfXb3ocuR8sI=",
+        "lastModified": 1697851979,
+        "narHash": "sha256-lJ8k4qkkwdvi+t/Xc6Fn74kUuobpu9ynPGxNZR6OwoA=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "261abe8a44a7e8392598d038d2e01f7b33cf26d0",
+        "rev": "5550a85a087c04ddcace7f892b0bdc9d8bb080c8",
         "type": "github"
       },
       "original": {
@@ -158,11 +158,11 @@
     "pics-watcher": {
       "flake": false,
       "locked": {
-        "lastModified": 1697302388,
-        "narHash": "sha256-VygOvQPIKY2um/hprX7UyOvolCsKpEty4ua0tWAHn2I=",
+        "lastModified": 1698005127,
+        "narHash": "sha256-e3SOLjVu413UEQbudvU8554SNb+QdTx2OF++rO5jLig=",
         "owner": "replaycoding",
         "repo": "PICSWatcher",
-        "rev": "3ff26177a6d645669ce21f18a4c26d13f5ff1482",
+        "rev": "6613ac16891bfacd1b2728a1759568049d3026d2",
         "type": "github"
       },
       "original": {

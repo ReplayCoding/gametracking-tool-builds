@@ -7,6 +7,7 @@
   (fetchNuGet { pname = "LibGit2Sharp.NativeBinaries"; version = "2.0.320"; sha256 = "03afv1aacwj7is713ygbpw61qs8bj3f02p89srdlfb94pcwav8is"; })
   (fetchNuGet { pname = "Microsoft.NETCore.Platforms"; version = "5.0.0"; sha256 = "0mwpwdflidzgzfx2dlpkvvnkgkr2ayaf0s80737h4wa35gaj11rc"; })
   (fetchNuGet { pname = "Microsoft.Win32.Registry"; version = "5.0.0"; sha256 = "102hvhq2gmlcbq8y2cb7hdr2dnmjzfp2k3asr1ycwrfacwyaak7n"; })
+  (fetchNuGet { pname = "Mono.Unix"; version = "7.1.0-final.1.21458.1"; sha256 = "0yv065hyikg2n3m61dlg8qf1z609y2f37ya2zsg50f5qx64ffvdn"; })
   (fetchNuGet { pname = "MySqlConnector"; version = "2.2.6"; sha256 = "0qg66cfvzmvj115wyvq3yjjykp9qk8p8ff5sn2sjjy53mmdkxb00"; })
   (fetchNuGet { pname = "NLog"; version = "5.2.4"; sha256 = "0hkj4wx2895m1g055y8c15ar3jjf9zk8638pnwxwfqshqm50s4sy"; })
   (fetchNuGet { pname = "protobuf-net"; version = "3.2.16"; sha256 = "0pwlqlq2p8my2sr8b0cvdav5cm8wpwf3s4gy7s1ba701ac2zyb9y"; })
