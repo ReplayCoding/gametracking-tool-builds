@@ -1,6 +1,6 @@
 {
   lib,
-  poetry2nix,
+  python3Packages,
   llvmPackages,
   makeWrapper,
   vice,
@@ -10,22 +10,21 @@
   src
 }:
 
-poetry2nix.mkPoetryApplication {
-  projectDir = src;
-
-  overrides = poetry2nix.defaultPoetryOverrides.extend (self: super: {
-    bsp-tool = super.bsp-tool.overridePythonAttrs
-    (
-      old: {
-        buildInputs = (old.buildInputs or [ ]) ++ [ super.setuptools ];
-      }
-    );
-  });
-
+python3Packages.buildPythonApplication rec {
+  pname = "dataminer";
+  version = "0.1.0";
+  inherit src;
+ 
+  format = "pyproject";
+ 
   nativeBuildInputs = [ makeWrapper ];
+ 
+   postFixup = ''
+     wrapProgram $out/bin/dataminer \
+       --prefix PATH : ${lib.makeBinPath [ llvmPackages.bintools convar-dumper vice bsp-info ]}
+   '';
 
-  postFixup = ''
-    wrapProgram $out/bin/dataminer \
-      --prefix PATH : ${lib.makeBinPath [ llvmPackages.bintools convar-dumper vice bsp-info ]}
-  '';
+  pythonImportsCheck = [ "dataminer" ];
+  buildInputs = [ python3Packages.setuptools ];
+  propagatedBuildInputs = [ python3Packages.pyyaml ];
 }
