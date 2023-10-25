@@ -43,11 +43,11 @@
     "dataminer": {
       "flake": false,
       "locked": {
-        "lastModified": 1698106464,
-        "narHash": "sha256-sDTM4Dvjdh6zayVeK6hlp9Ea7FBVirrKzgwCt8FuMSo=",
+        "lastModified": 1698274214,
+        "narHash": "sha256-WBxQlz1cOobDIgBE4l/K5bm1L5czeidbL9jBSQdcxUE=",
         "owner": "replaycoding",
         "repo": "tf2-dataminer",
-        "rev": "aedba2dd5099ed2124de13214718f502d42f70e2",
+        "rev": "39a5c6d7ca454c79abe9efc36959f01af6896493",
         "type": "github"
       },
       "original": {
