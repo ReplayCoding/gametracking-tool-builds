@@ -14,8 +14,8 @@ buildDotnetModule {
   projectFile = "GameTracking.csproj";
   nugetDeps = ./pics-watcher-deps.nix;
 
-  dotnet-sdk = dotnetCorePackages.sdk_7_0;
-  dotnet-runtime = dotnetCorePackages.runtime_7_0;
+  dotnet-sdk = dotnetCorePackages.sdk_8_0;
+  dotnet-runtime = dotnetCorePackages.runtime_8_0;
 
   nativeBuildInputs = [
     makeWrapper

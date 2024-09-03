@@ -4,7 +4,6 @@
   llvmPackages,
   makeWrapper,
   vice,
-  convar-dumper,
   bsp-info,
 
   src
@@ -21,7 +20,7 @@ python3Packages.buildPythonApplication rec {
  
    postFixup = ''
      wrapProgram $out/bin/dataminer \
-       --prefix PATH : ${lib.makeBinPath [ llvmPackages.bintools convar-dumper vice bsp-info ]}
+       --prefix PATH : ${lib.makeBinPath [ llvmPackages.bintools vice bsp-info ]}
    '';
 
   pythonImportsCheck = [ "dataminer" ];

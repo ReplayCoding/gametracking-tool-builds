@@ -9,35 +9,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1698015433,
-        "narHash": "sha256-L98UB7TjBjjkMdPOrssPny+UULWf7LPaVzOPQFqRZqc=",
+        "lastModified": 1698284273,
+        "narHash": "sha256-T78PkyX0UXm8GDbTBlmv/FS1HbBoPFJttJQFIJTSElk=",
         "owner": "replaycoding",
         "repo": "bspinfo",
-        "rev": "8cc27ff385b1856c0b16c2c71d7fded380cac003",
+        "rev": "3b7068007a47144e85570fdc83c3a722d14b5536",
         "type": "github"
       },
       "original": {
         "owner": "replaycoding",
         "repo": "bspinfo",
         "type": "github"
-      }
-    },
-    "convar-dumper": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1697477309,
-        "narHash": "sha256-og/oljHQ/20Ny0GBpMrt1A+8vqZR925MW2xtFB/AXs4=",
-        "ref": "refs/heads/convars",
-        "rev": "1b93e20d3f35447d3e2ba601f95d03aec53e12be",
-        "revCount": 24,
-        "submodules": true,
-        "type": "git",
-        "url": "https://github.com/replaycoding/convar-dumper"
-      },
-      "original": {
-        "submodules": true,
-        "type": "git",
-        "url": "https://github.com/replaycoding/convar-dumper"
       }
     },
     "dataminer": {
@@ -95,11 +77,11 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1694529238,
-        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
+        "lastModified": 1710146030,
+        "narHash": "sha256-SZ5L6eA7HJ/nmkzGG7/ISclqe6oZdOZTNoesiInkXPQ=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
+        "rev": "b1d9ab70662946ef0850d488da1c9019f3a9752a",
         "type": "github"
       },
       "original": {
@@ -141,16 +123,16 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1697851979,
-        "narHash": "sha256-lJ8k4qkkwdvi+t/Xc6Fn74kUuobpu9ynPGxNZR6OwoA=",
+        "lastModified": 1725001927,
+        "narHash": "sha256-eV+63gK0Mp7ygCR0Oy4yIYSNcum2VQwnZamHxYTNi+M=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "5550a85a087c04ddcace7f892b0bdc9d8bb080c8",
+        "rev": "6e99f2a27d600612004fbd2c3282d614bfee6421",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-23.05",
+        "ref": "nixos-24.05",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -158,11 +140,11 @@
     "pics-watcher": {
       "flake": false,
       "locked": {
-        "lastModified": 1698276483,
-        "narHash": "sha256-2mND52X7MMtv0edE+GignG/pdYeuUWKdbX7ART/vOfs=",
+        "lastModified": 1725322415,
+        "narHash": "sha256-sSUJ3srW1DSeRdowSkolMEwYicxTsniGOjKavxDhQ0A=",
         "owner": "replaycoding",
         "repo": "PICSWatcher",
-        "rev": "e9c875823d8602adcd3e266a121ff8f2b9705ac2",
+        "rev": "6405bddb885c0d97872a8fcb7d446223d380d6d4",
         "type": "github"
       },
       "original": {
@@ -174,7 +156,6 @@
     "root": {
       "inputs": {
         "bsp-info": "bsp-info",
-        "convar-dumper": "convar-dumper",
         "dataminer": "dataminer",
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils_2",
